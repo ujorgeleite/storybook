@@ -5,6 +5,7 @@ on:
     branches: [ default ]
   pull_request:
     branches: [ default ]
+    
 jobs:
   publish:
     runs-on: ubuntu-latest
