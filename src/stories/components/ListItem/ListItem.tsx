@@ -1,4 +1,3 @@
-import React from 'react';
 import './ListItem.scss'
 
 interface ListItemProps {
@@ -27,7 +26,7 @@ export const ListItem = ({
     <div className={[styles, mode].join(' ')} onClick={onClick}>
       {(!!src && src.length > 0) &&
       <span>
-        <img src={src} />
+        <img src={src} alt='Just to show'/>
       </span>}
       {(!!title && title.length > 0) && <p>{title}</p>}
     </div>
