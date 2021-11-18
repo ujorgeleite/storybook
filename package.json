@@ -33,6 +33,10 @@
     "@semantic-release/npm",
     "@semantic-release/git"
   ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "eslintConfig": {
     "extends": [
       "react-app",
