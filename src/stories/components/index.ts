@@ -1,10 +1,5 @@
 
-import { Button } from './Button/Button'
-import { List } from './List/List'
-import { ListItem } from './ListItem/ListItem'
+export *  from './List/List'
+export *  from './ListItem/ListItem'
+export *  from './Button/Button'
 
-export {
-  List,
-  Button,
-  ListItem
-}
