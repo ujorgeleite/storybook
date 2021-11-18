@@ -1,11 +1,6 @@
 name: Semantic release 
 
-on:
-  push:
-    branches: [ default ]
-  pull_request:
-    branches: [ default ]
-    
+on: push
 jobs:
   publish:
     runs-on: ubuntu-latest
